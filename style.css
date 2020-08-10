@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Argio";
+    src: url("font\arigio\argioregular-pkzwm-webfont.woff");
+    }
+
+@font-face {
+    font-family: "Anke";
+    src: url("font\anke\anke-webfont.woff");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    background-color: #222326;
+    color: #fff;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav_container{
+    display: flex;
+    background-color: #222326;
+}
+#nav_category{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: #222326;
+    width: 700px;
+    margin-top: 2px;
+}
+#nav_category li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #222326;
+    width: 140px;
+}
+#nav_category li a{
+    transition: all 0.3s ease 0s;
+    background-color: #222326;
+    cursor: pointer;
+}
+#nav_category li a:hover{
+    color: #ffc20e;
+    font-size: 18px;
+}
+#homepage{
+    font-size: 18px;
+    color: #ffc20e;
+}
+#logo{
+    cursor: pointer;
+    margin: 10px 10px;
+    background-color: unset;
+}
+#searchBar-container{
+    background-color: #222326;
+    padding-top: 50px;
+}
+#searchBar{
+    margin-left: 0px;
+    border-radius: 20px;
+    width: 330px;
+    border: none;
+    background-color: #ffc20e;
+    padding: 0 13px;
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    color: #fff;
+    display: flex;
+}
+
+#bar{
+    border: none;
+    background-color: #ffc20e;
+    color: #222326;
+    
+}
+#bar::placeholder {
+    color: #222326;
+    font-family: 'Montserrat', sans-serif;
+}
+#searchBtn{
+    background-color: #ffc20e; 
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+}
+
+#searchBar span {
+    background: #ffc20e;
+    margin-left: 110px;
+    
+}
+
+#background-container{
+    font-family: 'Anke';
+    font-style: bold;
+}
+#background-container span{
+    position: absolute;
+    background-color: unset;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 340px;
+    margin-left: 500px;
+}
+#background-container div{
+    position: absolute;
+    background-color: unset;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 405px;
+    margin-left: 400px;
+    opacity: 0.6;
+}
+
+#background-container div:hover{
+    opacity: 1;
+}
+#background-img{
+    max-width: 1263px;
+    height: 616px;
+}
+
+#main-container{
+    /* margin: 50px; */
+
+}
+
+#left-content-container{
+    margin: 50px 0 30px 30px;
+    width: 60%;
+    
+}
+
+#left-content-container .title{
+    border-bottom: solid 1px;
+    border-color: #ffc20e;
+    width: 215px;
+    font-size: 26px;
+}
